@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Opacity="0.65" Visibility="Visible">
+    <Grid x:Name="wndMain" Opacity="0.65" Visibility="Visible">
         <Grid.Effect>
             <DropShadowEffect/>
         </Grid.Effect>
@@ -19,8 +19,8 @@
             </Label.Effect>
         </Label>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="274,142,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Height="48" FontSize="35"/>
-        <DatePicker x:Name="dpEnteredDate" HorizontalAlignment="Left" Margin="274,217,0,0" VerticalAlignment="Top" Height="107" Width="285" FirstDayOfWeek="Monday" FontSize="35"/>
-        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="70,136,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.75" Height="60" Width="150" FontSize="35" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+        <DatePicker x:Name="dpEnteredDate" HorizontalAlignment="Left" Margin="274,217,0,0" VerticalAlignment="Top" Height="107" Width="303" FirstDayOfWeek="Monday" FontSize="35" BorderBrush="{x:Null}"/>
+        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="70,136,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.65" Height="60" Width="150" FontSize="35" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
@@ -30,7 +30,7 @@
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Button x:Name="btnCalculate" Content="Click To Calculate Age" HorizontalAlignment="Center" Margin="0,350,0,0" VerticalAlignment="Top" Height="60" Width="200" Click="Button_Click" FontWeight="Bold" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+        <Button x:Name="btnCalculate" Content="Click To Calculate Age" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top" Height="65" Width="354" Click="Button_Click" FontWeight="Bold" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Opacity="0.85" MouseEnter="btnCalculate_MouseEnter" MouseLeave="btnCalculate_MouseLeave">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF2172E6"/>

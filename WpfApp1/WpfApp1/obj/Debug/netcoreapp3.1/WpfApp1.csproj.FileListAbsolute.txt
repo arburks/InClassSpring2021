@@ -17,3 +17,5 @@ C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcor
 C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
 C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
 C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.Properties.Resources.resources
+C:\Users\arburks\source\repos\InClassSpring2021\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.GenerateResource.cache

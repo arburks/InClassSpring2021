@@ -35,7 +35,17 @@ namespace WpfApp1
             MessageBox.Show($"{name} is {age} years old!! \n" +
                 $"\n My parents didn't want to move to Florida," +
                 $"\n but they turned 60 and that's the law. —Jerry Seinfeld", "Age", MessageBoxButton.OK, MessageBoxImage.Information);
+            
+        }
 
+        private void btnCalculate_MouseEnter(object sender, MouseEventArgs e)
+        {
+            wndMain.Background = Brushes.DarkTurquoise;
+        }
+
+        private void btnCalculate_MouseLeave(object sender, MouseEventArgs e)
+        {
+            wndMain.Background = new ImageBrush(new BitmapImage(new Uri("https://aic.azureedge.net/pgl-release/Images/ArticleImages/19/19156.jpg")));
         }
     }
 }
