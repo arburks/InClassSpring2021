@@ -18,19 +18,19 @@
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,133,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Height="36" TextChanged="txtName_TextChanged"/>
-        <DatePicker x:Name="dpTextbox" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="43" Width="132"/>
-        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="63,133,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.75" Height="36" Width="102" FontSize="24" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed">
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="274,142,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" Height="48" FontSize="35"/>
+        <DatePicker x:Name="dpEnteredDate" HorizontalAlignment="Left" Margin="274,217,0,0" VerticalAlignment="Top" Height="107" Width="285" FirstDayOfWeek="Monday" FontSize="35"/>
+        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="70,136,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.75" Height="60" Width="150" FontSize="35" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Label x:Name="lblBirthday" Content="Birthday:" HorizontalAlignment="Left" Margin="63,217,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.75" Height="36" Width="102" FontSize="24" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed">
+        <Label x:Name="lblBirthday" Content="Birthday:" HorizontalAlignment="Left" Margin="70,217,0,0" VerticalAlignment="Top" Background="#FF8AD4FC" Opacity="0.75" Height="60" Width="150" FontSize="35" FontFamily="Calibri" FontWeight="Bold" FontStretch="ExtraCondensed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Button x:Name="btnCalculate" Content="Click To Calculate Age" HorizontalAlignment="Left" Margin="334,317,0,0" VerticalAlignment="Top" Height="71" Width="155" Click="Button_Click">
+        <Button x:Name="btnCalculate" Content="Click To Calculate Age" HorizontalAlignment="Center" Margin="0,350,0,0" VerticalAlignment="Top" Height="60" Width="200" Click="Button_Click" FontWeight="Bold" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF2172E6"/>

@@ -28,10 +28,14 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            TimeSpan birthday = DateTime.Now - Convert.ToDateTime(dpEnteredDate.SelectedDate);
+            int age = Convert.ToInt32(birthday.Days) / 365;
             string name = txtName.Text;
-            string birthday = dpTextbox.SelectedDate.Value.ToString;
-            string age = DateTime.Today;
-            DateTime birthdayDate = DateTime.TryParse(birthday, out birthdayDate);
+            MessageBox.Show($"{name} is {age} years old!! \n" +
+                $"\n My parents didn't want to move to Florida," +
+                $"\n but they turned 60 and that's the law. —Jerry Seinfeld", "Age", MessageBoxButton.OK, MessageBoxImage.Information);
+
         }
     }
 }
