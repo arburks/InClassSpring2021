@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF_Classes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Classes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblName" Content="Name" HorizontalAlignment="Left" Margin="93,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBreed" Content="Breed" HorizontalAlignment="Left" Margin="93,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPictureURL" Content="Picture URL" HorizontalAlignment="Left" Margin="63,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="233,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBreed" HorizontalAlignment="Left" Margin="233,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPictureURL" HorizontalAlignment="Left" Margin="233,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstPets" Margin="400,71,24,89" SelectionChanged="lbPets_SelectionChanged">
+            <Image x:Name="imgPets" Height="149" Width="262"/>
+        </ListBox>
+        <Button x:Name="btnClick" Content="Button" HorizontalAlignment="Center" Margin="0,330,0,0" VerticalAlignment="Top" Height="30" Width="120" Click="btnClick_Click"/>
+
+    </Grid>
+</Window>
