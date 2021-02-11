@@ -13,8 +13,8 @@
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="212,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
         <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="212,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
         <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="212,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
-        <ListBox x:Name="lstApplications" Margin="443,10,10,234"/>
-        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Height="23" Width="150"/>
+        <ListBox x:Name="lstApplications" Margin="443,10,10,165"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Height="23" Width="150" Click="btnSubmit_Click"/>
 
     </Grid>
 </Window>

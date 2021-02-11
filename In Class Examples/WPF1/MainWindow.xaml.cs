@@ -24,5 +24,31 @@ namespace WPF1
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            string zip = txtZip.Text;
+            int validZip;
+            if (int.TryParse(zip, out validZip) == false)
+            {
+                string tryAgain = "That is not a valid Zip Code, please try again!";
+                MessageBox.Show(tryAgain);
+                txtZip.Clear();
+            }
+            else
+            {
+                EntryForm entryForm = new EntryForm(txtName.Text, txtAddress.Text, validZip);
+                //Convert.ToInt32(txtZip.Text)
+                lstApplications.Items.Add(entryForm);
+                ClearTxtBoxes();
+            }
+        }
+
+        private void ClearTxtBoxes()
+        {
+            txtName.Clear();
+            txtAddress.Clear();
+            txtZip.Clear();
+        }
     }
 }

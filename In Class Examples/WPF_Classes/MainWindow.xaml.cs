@@ -42,6 +42,7 @@ namespace WPF_Classes
             
         }
 
+        //This is the code for when you click on the listbox to display the image
         private void lbPets_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Pet selectedPet = (Pet)lstPets.SelectedItem;

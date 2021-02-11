@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj": {}
+    "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj": {
+    "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj",
+        "projectUniqueName": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj",
         "projectName": "WPF_FirstApplication",
-        "projectPath": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj",
+        "projectPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\WPF_FirstApplication.csproj",
         "packagesPath": "C:\\Users\\arburks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\obj\\",
+        "outputPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_FirstApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arburks\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lARR9YfGCUnK5L7dO8khdBHcm/L2c/5uxZra3xBN2mKScIcy5hfyYiwEOaCzqCyl9JCrOO4Kl2TvMYOCoWTODw==",
+  "dgSpecHash": "Cih2cvhX7TEGmoZoAYlB805Hxu/pQ5Ny/JHQXJrXNI7aJxjajdEyHLM8NKdrzoGYuxQcuoY8AG4PjnR2aFhCCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
+  "projectFilePath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arburks\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\arburks\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
