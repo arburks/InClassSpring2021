@@ -7,14 +7,42 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lnlName" Content="Name:" HorizontalAlignment="Left" Margin="102,109,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblAddress" Content="Address:" HorizontalAlignment="Left" Margin="91,164,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblZip" Content="ZipCode:" HorizontalAlignment="Left" Margin="89,217,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="212,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="212,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
-        <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="212,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
-        <ListBox x:Name="lstApplications" Margin="443,10,10,165"/>
-        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Height="23" Width="150" Click="btnSubmit_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://images7.alphacoders.com/375/thumb-350-375724.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lnlName" Content="Name:" HorizontalAlignment="Left" Margin="111,140,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Times New Roman">
+        </Label>
+        <Label x:Name="lblAddress" Content="Address:" HorizontalAlignment="Left" Margin="91,200,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Times New Roman">
+        </Label>
+        <Label x:Name="lblZip" Content="ZipCode:" HorizontalAlignment="Left" Margin="86,257,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Times New Roman">
+        </Label>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="212,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="212,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="212,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontFamily="Times New Roman" FontSize="16"/>
+        <ListBox x:Name="lstApplications" Margin="459,50,21,53" Background="#FF417E91" Opacity="0.55" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="212,338,0,0" VerticalAlignment="Top" Height="43" Width="150" Click="btnSubmit_Click" Background="#FFDAB1F0" Opacity="0.75" BorderBrush="#FFFFD9D9" BorderThickness="4,4,4,4" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold" FontStyle="Normal">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label x:Name="lblTitle" Content="Address Book" HorizontalAlignment="Left" Margin="140,55,0,0" VerticalAlignment="Top" Height="54" Width="260" FontSize="40" FontWeight="Bold" Foreground="#FFC76868" FontFamily="Times New Roman">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Rectangle HorizontalAlignment="Left" Height="66" Margin="49,49,0,0" VerticalAlignment="Top" Width="69">
+            <Rectangle.Effect>
+                <DropShadowEffect/>
+            </Rectangle.Effect>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="https://i.pinimg.com/originals/68/5c/ce/685cceffa93afa89416c4345481bf834.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button x:Name="btnDelete" Content="Delete" Margin="0,0,21,24" Background="#FFDAB4B4" Opacity="0.75" Click="btnDelete_Click" FontWeight="Bold" HorizontalAlignment="Right" Width="73" Height="20" VerticalAlignment="Bottom">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>

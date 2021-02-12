@@ -34,9 +34,11 @@ namespace WPF1
                 string tryAgain = "That is not a valid Zip Code, please try again!";
                 MessageBox.Show(tryAgain);
                 txtZip.Clear();
+                txtZip.Background = Brushes.IndianRed;
             }
             else
             {
+                txtZip.Background = Brushes.White;
                 EntryForm entryForm = new EntryForm(txtName.Text, txtAddress.Text, validZip);
                 //Convert.ToInt32(txtZip.Text)
                 lstApplications.Items.Add(entryForm);
@@ -49,6 +51,11 @@ namespace WPF1
             txtName.Clear();
             txtAddress.Clear();
             txtZip.Clear();
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            lstApplications.Items.Remove(lstApplications.SelectedItem);
         }
     }
 }
