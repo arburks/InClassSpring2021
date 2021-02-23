@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
+      "projectUniqueName": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
       "projectName": "WPF_Classes",
-      "projectPath": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
+      "projectPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\WPF_Classes.csproj",
       "packagesPath": "C:\\Users\\arburks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arburks\\Source\\Repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\obj\\",
+      "outputPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_Classes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arburks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,7 +235,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

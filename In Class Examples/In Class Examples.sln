@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_FirstApplication", "WPF_FirstApplication\WPF_FirstApplication.csproj", "{63F7BB45-7ADC-43A8-B04D-8A10E64BE58D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Classes", "WPF_Classes\WPF_Classes.csproj", "{5ACF1689-F490-48CC-8849-8C917608AF12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Classes", "WPF_Classes\WPF_Classes.csproj", "{5ACF1689-F490-48CC-8849-8C917608AF12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF1", "WPF1\WPF1.csproj", "{C432A8DB-94D8-4DB6-B88D-F91EC80695DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF1", "WPF1\WPF1.csproj", "{C432A8DB-94D8-4DB6-B88D-F91EC80695DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Web_Browser", "WPF_Web_Browser\WPF_Web_Browser.csproj", "{F9FFF2C7-4277-4A32-8214-453759A5DC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_JSON-Rick-and-Morty", "WPF_JSON-Rick-and-Morty\WPF_JSON-Rick-and-Morty.csproj", "{4D1128E4-2EA1-420D-9D58-EFF0F7860025}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C432A8DB-94D8-4DB6-B88D-F91EC80695DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C432A8DB-94D8-4DB6-B88D-F91EC80695DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C432A8DB-94D8-4DB6-B88D-F91EC80695DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FFF2C7-4277-4A32-8214-453759A5DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FFF2C7-4277-4A32-8214-453759A5DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FFF2C7-4277-4A32-8214-453759A5DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FFF2C7-4277-4A32-8214-453759A5DC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1128E4-2EA1-420D-9D58-EFF0F7860025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1128E4-2EA1-420D-9D58-EFF0F7860025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1128E4-2EA1-420D-9D58-EFF0F7860025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1128E4-2EA1-420D-9D58-EFF0F7860025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

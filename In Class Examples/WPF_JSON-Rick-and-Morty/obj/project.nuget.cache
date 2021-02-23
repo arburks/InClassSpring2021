@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U3+FJbvV5dds0NcmTBpHI2115StA2ulHJ0iyCvOlXjFpB233vfH0d37NFrFrIx+AYy+wZNcfYPNawL1dOyVz+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\WPF_JSON-Rick-and-Morty\\WPF_JSON-Rick-and-Morty.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arburks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
