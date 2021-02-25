@@ -1,0 +1,21 @@
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.csprojAssemblyReference.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon_MarkupCompile.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon_MarkupCompile.lref
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.exe
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.deps.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.runtimeconfig.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.runtimeconfig.dev.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\JSON Pokemon.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.g.resources
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.AssemblyInfoInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.AssemblyInfo.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.csproj.CopyComplete
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\JSON Pokemon\obj\Debug\netcoreapp3.1\JSON Pokemon.genruntimeconfig.cache

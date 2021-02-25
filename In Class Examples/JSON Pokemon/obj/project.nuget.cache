@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XKRA9uP6MDLiPZryYjjMIicHZXBxpnQSLEutByM6CsrODzIIqYjx9w8X2JI1VRtGjWsVpaE0x8TvTUWZzvD2uQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\JSON Pokemon\\JSON Pokemon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arburks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

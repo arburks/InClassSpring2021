@@ -1,0 +1,16 @@
+﻿<Window x:Class="JSON_Pokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Pokemon"
+        mc:Ignorable="d"
+        Title="Pokemon Selector" Height="450" Width="800" Background="#FFEEEEEE" FontWeight="Bold">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://www.ssbwiki.com/images/thumb/7/73/SSBU-Pokémon_Stadium.png/1200px-SSBU-Pokémon_Stadium.png"/>
+        </Grid.Background>
+        <ListBox x:Name="lstPokemon" Margin="19,82,550,71" Background="#FFD8D8D8" Opacity="0.75" FontSize="22"/>
+
+    </Grid>
+</Window>
