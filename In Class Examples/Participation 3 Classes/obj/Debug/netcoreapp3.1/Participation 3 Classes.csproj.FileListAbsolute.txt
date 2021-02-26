@@ -1,0 +1,21 @@
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.exe
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.deps.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.runtimeconfig.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.runtimeconfig.dev.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\bin\Debug\netcoreapp3.1\Participation 3 Classes.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.csprojAssemblyReference.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes_MarkupCompile.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes_MarkupCompile.lref
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.g.resources
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.AssemblyInfoInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.AssemblyInfo.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.csproj.CoreCompileInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\Participation 3 Classes.genruntimeconfig.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\StudentAddressDisplayWindow.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\Participation 3 Classes\obj\Debug\netcoreapp3.1\StudentAddressDisplayWindow.baml

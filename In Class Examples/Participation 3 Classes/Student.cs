@@ -32,7 +32,37 @@ namespace Participation_3_Classes
 
         public string CalculateDistinction()
         {
-            
+            string distinction;
+
+            if (GPA>= 3.80)
+            {
+                distinction = "Summa Cum Laude";
+            }
+            else if (GPA >= 3.60)
+            {
+                distinction = "Magna Cum Laude";
+            }
+            else if (GPA >= 3.40)
+            {
+                distinction = "Cum Laude";
+            }
+            else
+            {
+                distinction = "No Distinction";
+            }
+
+            return distinction;
+        }
+
+        public void setAddress(int streetNumber, string streetName, string state, string city, int zipCode)
+        {
+            address = new Address(streetNumber, streetName, state, city, zipCode);
+        }
+
+        public override string ToString()
+        {
+
+            return $"{FirstName} {LastName}, {Major}, {CalculateDistinction()}";
         }
     }
 }

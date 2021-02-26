@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JSON_Pokemon"
         mc:Ignorable="d"
-        Title="Pokemon Selector" Height="450" Width="800" Background="#FFEEEEEE" FontWeight="Bold">
+        Title="Pokemon Selector" Height="450" Width="800" Background="#FFEEEEEE" FontWeight="Bold"
+        ResizeMode = "CanMinimize">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="https://www.ssbwiki.com/images/thumb/7/73/SSBU-Pokémon_Stadium.png/1200px-SSBU-Pokémon_Stadium.png"/>

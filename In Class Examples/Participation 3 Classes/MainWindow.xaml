@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Participation_3_Classes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="475" Width="825">
+    <Grid x:Name="wndMain" Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FFF5A4A4" Offset="0.778"/>
+                <GradientStop Color="#FFECCCCC" Offset="0.477"/>
+                <GradientStop Color="#FFEE8989" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Label x:Name="lnlName" Content="First Name:" HorizontalAlignment="Left" Margin="61,102,0,0" VerticalAlignment="Top" Height="26" Width="78" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblMajor" Content="Major:" HorizontalAlignment="Left" Margin="61,162,0,0" VerticalAlignment="Top" Height="26" Width="55" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblGPA" Content="Cummulative GPA:" HorizontalAlignment="Left" Margin="61,192,0,0" VerticalAlignment="Top" Height="26" Width="110" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblLastName" Content="Last Name:" HorizontalAlignment="Left" Margin="61,132,0,0" VerticalAlignment="Top" Height="26" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblStreetNumber" Content="Street Number:" HorizontalAlignment="Left" Margin="61,250,0,0" VerticalAlignment="Top" Height="26" Width="100" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="City" Content="City:" HorizontalAlignment="Left" Margin="61,310,0,0" VerticalAlignment="Top" Height="26" Width="55" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblState" Content="State:" HorizontalAlignment="Left" Margin="61,340,0,0" VerticalAlignment="Top" Height="26" Width="110" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblStreetName" Content="Street Name:" HorizontalAlignment="Left" Margin="61,281,0,0" VerticalAlignment="Top" Height="26" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Label x:Name="lblZipCode" Content="Zip Code:" HorizontalAlignment="Left" Margin="61,370,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <TextBox x:Name="txtStreetNumber" HorizontalAlignment="Left" Margin="201,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="5"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="201,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="2"/>
+        <TextBox x:Name="txtMajor" HorizontalAlignment="Left" Margin="201,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="3"/>
+        <TextBox x:Name="txtGPA" HorizontalAlignment="Left" Margin="201,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="4"/>
+        <TextBox x:Name="txtStreetName" HorizontalAlignment="Left" Margin="201,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="6"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Margin="201,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="7"/>
+        <TextBox x:Name="txtState" HorizontalAlignment="Left" Margin="201,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="8"/>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="201,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="1"/>
+        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Margin="201,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontFamily="Times New Roman" TabIndex="9"/>
+        <ListBox x:Name="listHandout" Margin="402,118,40,70" BorderBrush="#FF841617" BorderThickness="3,3,3,2" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FFFFFCFC" MouseDoubleClick="listHandout_MouseDoubleClick"/>
+        <Label x:Name="lblOU" Content="Student Information Form" Margin="67,13,67,0" FontFamily="Times New Roman" FontWeight="Normal" FontSize="48" Foreground="Black" Height="63" VerticalAlignment="Top" HorizontalContentAlignment="Center" Background="#FFF5B3B3" BorderBrush="Black" BorderThickness="2,2,2,2">
+        </Label>
+
+        <Button x:Name="btnSubmit" Content="Confirm" HorizontalAlignment="Left" Margin="241,405,0,0" VerticalAlignment="Top" Width="75" Background="#FFFDF9D8" BorderBrush="#FF841617" FontFamily="Times New Roman" FontSize="16" Click="btnSubmit_Click" IsDefault="True" FontWeight="Bold"/>
+        <Button x:Name="btnRemove" Content="Remove" Margin="0,0,40,30" Background="#FFFDF9D8" BorderBrush="#FF841617" FontFamily="Times New Roman" HorizontalAlignment="Right" Width="65" Height="27" VerticalAlignment="Bottom" Click="btnRemove_Click" FontWeight="Bold"/>
+        <Label x:Name="lblInstructions" Content="Double click on a desired student to reveal their address." HorizontalAlignment="Left" Margin="402,89,0,0" VerticalAlignment="Top" Height="24" Width="383" HorizontalContentAlignment="Center" FontStyle="Italic" FontWeight="Bold"/>
 
     </Grid>
 </Window>
