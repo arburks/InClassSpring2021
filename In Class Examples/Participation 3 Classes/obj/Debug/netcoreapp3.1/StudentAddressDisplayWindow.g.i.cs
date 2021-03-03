@@ -117,7 +117,7 @@ namespace Participation_3_Classes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Participation 3 Classes;component/studentaddressdisplaywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Participation 3 Classes;V1.0.0.0;component/studentaddressdisplaywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\StudentAddressDisplayWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

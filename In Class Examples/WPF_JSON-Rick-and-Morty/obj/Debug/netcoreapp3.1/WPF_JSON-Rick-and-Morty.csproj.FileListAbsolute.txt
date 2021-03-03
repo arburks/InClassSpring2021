@@ -19,3 +19,5 @@ C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-and-Morty\obj\Debug\netcoreapp3.1\WPF_JSON-Rick-and-Morty.dll
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-and-Morty\obj\Debug\netcoreapp3.1\WPF_JSON-Rick-and-Morty.pdb
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-and-Morty\obj\Debug\netcoreapp3.1\WPF_JSON-Rick-and-Morty.genruntimeconfig.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-and-Morty\obj\Debug\netcoreapp3.1\Rick-and-Morty-Image-Window.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\WPF_JSON-Rick-and-Morty\obj\Debug\netcoreapp3.1\Rick-and-Morty-Image-Window.baml

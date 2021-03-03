@@ -30,21 +30,33 @@ namespace WPF_JSON_Rick_and_Morty
 
             using (var client = new HttpClient())
             {
-                string jsonData = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
+                string url = "https://rickandmortyapi.com/api/character";
 
-                RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
-
-                foreach (var character in api.results)
+                while (!string.IsNullOrWhiteSpace(url))
                 {
-                    lstCharacters.Items.Add(character);
-                }
+                    string jsonData = client.GetStringAsync(url).Result;
+                    
+                    RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
+
+                    foreach (var character in api.results)
+                    {
+                        lstCharacters.Items.Add(character);
+                    }
+
+                    url = api.info.next;
+
+                } 
             }
         }
 
         private void lstCharacters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedCharacter = (Character)lstCharacters.SelectedItem;
-            imgCharacter.Source = new BitmapImage(new Uri(selectedCharacter.image));
+            Rick_and_Morty_Image_Window newWindow = new Rick_and_Morty_Image_Window();
+            newWindow.GetCharacterName(selectedCharacter);
+            newWindow.GetCharacterImage(selectedCharacter);
+            newWindow.ShowDialog();
+
         }
     }
 }

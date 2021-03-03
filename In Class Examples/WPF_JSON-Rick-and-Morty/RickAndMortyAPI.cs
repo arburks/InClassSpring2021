@@ -9,6 +9,7 @@ namespace WPF_JSON_Rick_and_Morty
         public Info info { get; set; }
 
         public List<Character> results { get; set; }
+
     }
 
     public class Character

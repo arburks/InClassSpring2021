@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WPF_Classes
+﻿namespace WPF_Classes
 {
     public class Pet
     {
@@ -22,8 +18,4 @@ namespace WPF_Classes
             return $"{Name} ({Breed})";
         }
     }
-
-    
-
-    
 }

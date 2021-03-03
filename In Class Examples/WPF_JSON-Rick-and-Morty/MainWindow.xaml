@@ -10,8 +10,17 @@
         <Grid.Background>
             <ImageBrush ImageSource="https://www.adweek.com/wp-content/uploads/2019/12/pringles-rick-morty-superbowl-PAGE-2019.jpg"/>
         </Grid.Background>
-        <ListBox x:Name="lstCharacters" Margin="0,100,400,100" Opacity="0.33" SelectionChanged="lstCharacters_SelectionChanged"/>
-        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="258" Margin="515,100,0,0" VerticalAlignment="Top" Width="228"/>
+        <ListBox x:Name="lstCharacters" Margin="10,10,334,10" SelectionChanged="lstCharacters_SelectionChanged" FontSize="16" FontWeight="Bold">
+            <ListBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.33"/>
+            </ListBox.Background>
+        </ListBox>
+        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="258" Margin="515,138,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label x:Name="lblTitle" Content="Rick &#xD;&#xA;and Morty" Margin="495,10,-15,0" VerticalAlignment="Top" Height="218" Foreground="White" FontWeight="Bold" FontSize="60" HorizontalContentAlignment="Right" FlowDirection="RightToLeft" FontFamily="Bell MT" Background="{x:Null}">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
 
     </Grid>
 </Window>
