@@ -9,9 +9,47 @@
         ResizeMode = "CanMinimize">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="https://www.ssbwiki.com/images/thumb/7/73/SSBU-Pokémon_Stadium.png/1200px-SSBU-Pokémon_Stadium.png"/>
+            <ImageBrush ImageSource="https://www.ssbwiki.com/images/thumb/7/73/SSBU-Pokémon_Stadium.png/1200px-SSBU-Pokémon_Stadium.png" />
         </Grid.Background>
-        <ListBox x:Name="lstPokemon" Margin="19,82,550,71" Background="#FFD8D8D8" Opacity="0.75" FontSize="22"/>
-
+        <ListBox x:Name="lstPokemon" Margin="10,36,544,36" Background="#FFD8D8D8" Opacity="0.75" FontSize="18" SelectionChanged="lstPokemon_SelectionChanged" />
+        <Label x:Name="lblName" Content="Pokemon Selector" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" Height="39" Width="254" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontSize="22">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="lblHeight" Content="Height:" HorizontalAlignment="Left" Margin="304,91,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FFE74F56" Background="{x:Null}">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="lblWeight" Content="Weight:" HorizontalAlignment="Left" Margin="416,91,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF2F672C" RenderTransformOrigin="0.792,0.534">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="lblHeightStat" Content="111" HorizontalAlignment="Left" Margin="287,122,0,0" VerticalAlignment="Top" Height="51" Width="100" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" Foreground="#FFE04C52">
+            <Label.Background>
+                <SolidColorBrush Color="White" Opacity="0.25" />
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblWeightStat" Content="111" HorizontalAlignment="Left" Margin="400,122,0,0" VerticalAlignment="Top" Height="51" Width="100
+               " VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" Foreground="#FF7CE876">
+            <Label.Background>
+                <SolidColorBrush Color="White" Opacity="0.25" />
+            </Label.Background>
+        </Label>
+        <Image x:Name="imgSprite" HorizontalAlignment="Left" Height="195" Margin="436,166,0,0" VerticalAlignment="Top" Width="139">
+            <Image.Effect>
+                <DropShadowEffect />
+            </Image.Effect>
+        </Image>
+        <Button x:Name="btnChange" Content="Change View" Margin="676,9,10,0" VerticalAlignment="Top" Height="43" Foreground="White" FontSize="16" Click="btnChange_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#FFE55056" Opacity="0.65" />
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect />
+            </Button.Effect>
+        </Button>
     </Grid>
 </Window>
