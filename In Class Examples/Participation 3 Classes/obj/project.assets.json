@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\Participation 3 Classes\\Participation 3 Classes.csproj",
-      "projectName": "Participation 3 Classes",
-      "projectPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\Participation 3 Classes\\Participation 3 Classes.csproj",
+      "projectUniqueName": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\Participation 3 Classes\\Student Address.csproj",
+      "projectName": "Student Address",
+      "projectPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\Participation 3 Classes\\Student Address.csproj",
       "packagesPath": "C:\\Users\\arburks\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\Participation 3 Classes\\obj\\",
       "projectStyle": "PackageReference",

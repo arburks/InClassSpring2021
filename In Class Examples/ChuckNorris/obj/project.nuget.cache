@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ADLAMxHyli1XjB5MJS3WbC1G7L8/M6Jx/+R9FdyO0EuQP5IgZ+MpuBLaSIPAMs2VNF5q5lCg7jGsQzQ4jxKHFg==",
+  "dgSpecHash": "6tL17UEVQUG8Tq0HNTakWdawxidBEujNM6+KpdG19nY0TNA1d5Wi2V9RgaUN61tELU29TNsi6OqBtMEGL3Ck8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\arburks\\source\\repos\\InClassSpring2021\\In Class Examples\\ChuckNorris\\ChuckNorris.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\arburks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

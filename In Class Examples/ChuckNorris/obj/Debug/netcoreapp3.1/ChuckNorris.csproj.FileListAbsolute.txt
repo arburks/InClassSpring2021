@@ -21,3 +21,5 @@ C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\ob
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.dll
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.pdb
 C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.genruntimeconfig.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.csproj.CopyComplete

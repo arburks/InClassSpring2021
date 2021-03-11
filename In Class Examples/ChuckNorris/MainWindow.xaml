@@ -7,39 +7,39 @@
         mc:Ignorable="d"
         Title="Chuck Norris Jokes" Height="450" Width="800"
         ResizeMode="CanMinimize">
-    <Border >
+    <Border>
         <Grid>
             <Grid.Background>
-                <ImageBrush ImageSource="https://5star.media/wp-content/uploads/2021/01/1-1.jpg" Opacity="0.85"/>
+                <ImageBrush ImageSource="https://5star.media/wp-content/uploads/2021/01/1-1.jpg" Opacity="0.85" />
             </Grid.Background>
-            <Image x:Name="imgCategory" Margin="76,198,546,0" Stretch="Fill" Source="pack://siteoforigin:,,,/Category1.png">
+            <Image x:Name="imgCategory" Margin="76,200,546,-2" Stretch="Fill" Source="pack://siteoforigin:,,,/Category1.png">
                 <Image.Effect>
-                    <DropShadowEffect/>
+                    <DropShadowEffect />
                 </Image.Effect>
             </Image>
             <Image x:Name="imgCartoon" Margin="192,8,192,8" Stretch="Fill" Source="pack://siteoforigin:,,,/chuck norris.png">
                 <Image.Effect>
-                    <DropShadowEffect/>
+                    <DropShadowEffect />
                 </Image.Effect>
             </Image>
             <Image x:Name="imgTitle" Margin="-17,-33,453,126" Stretch="Fill" Source="pack://siteoforigin:,,,/title.png">
                 <Image.Effect>
-                    <DropShadowEffect/>
+                    <DropShadowEffect />
                 </Image.Effect>
             </Image>
-            <ComboBox x:Name="cbxCategory" HorizontalAlignment="Left" Margin="68,339,0,0" VerticalAlignment="Top" Width="194" Height="47
-                      " FontFamily="Impact" FontSize="30">
+            <ComboBox x:Name="cbxCategory" Margin="68,335,538,0" VerticalAlignment="Top" Height="47
+                      " FontFamily="Impact" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
                 <ComboBox.Effect>
-                    <DropShadowEffect/>
+                    <DropShadowEffect />
                 </ComboBox.Effect>
             </ComboBox>
-            <Image x:Name="imgBubble" Margin="498,0,0,122" Stretch="Fill" Source="pack://siteoforigin:,,,/bubble.png"/>
-            <Button x:Name="btnSubmit" Content="Joke Me!" HorizontalAlignment="Left" Margin="566,339,0,0" VerticalAlignment="Top" Height="47" Width="166" FontWeight="Normal" FontFamily="Impact" FontSize="30" Foreground="Black">
+            <Image x:Name="imgBubble" Margin="498,0,0,122" Stretch="Fill" Source="pack://siteoforigin:,,,/bubble.png" Visibility="Visible" />
+            <Button x:Name="btnSubmit" Content="Joke Me!" Margin="566,339,68,0" VerticalAlignment="Top" Height="47" FontWeight="Normal" FontFamily="Impact" FontSize="30" Foreground="Black" Click="btnSubmit_Click">
                 <Button.Effect>
-                    <DropShadowEffect/>
+                    <DropShadowEffect />
                 </Button.Effect>
             </Button>
-
+            <TextBlock x:Name="txtJoke" Margin="527,31,46,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="168" FontFamily="Impact" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" FontSize="18" TextAlignment="Center" />
         </Grid>
     </Border>
 </Window>

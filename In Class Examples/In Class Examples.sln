@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Web_Browser", "WPF_Web_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_JSON-Rick-and-Morty", "WPF_JSON-Rick-and-Morty\WPF_JSON-Rick-and-Morty.csproj", "{4D1128E4-2EA1-420D-9D58-EFF0F7860025}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Participation 3 Classes", "Participation 3 Classes\Participation 3 Classes.csproj", "{A0DC7DE7-CD83-4A08-A42B-B3AFEEBED3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student Address", "Participation 3 Classes\Student Address.csproj", "{A0DC7DE7-CD83-4A08-A42B-B3AFEEBED3FA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON Pokemon", "JSON Pokemon\JSON Pokemon.csproj", "{F374D0E2-5539-408E-984B-5382915738D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorris", "ChuckNorris\ChuckNorris.csproj", "{785E9868-2947-4387-8DDB-379FFD9827F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorris", "ChuckNorris\ChuckNorris.csproj", "{785E9868-2947-4387-8DDB-379FFD9827F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
