@@ -1,0 +1,45 @@
+﻿<Window x:Name="wndMain" x:Class="ChuckNorris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChuckNorris"
+        mc:Ignorable="d"
+        Title="Chuck Norris Jokes" Height="450" Width="800"
+        ResizeMode="CanMinimize">
+    <Border >
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="https://5star.media/wp-content/uploads/2021/01/1-1.jpg" Opacity="0.85"/>
+            </Grid.Background>
+            <Image x:Name="imgCategory" Margin="76,198,546,0" Stretch="Fill" Source="pack://siteoforigin:,,,/Category1.png">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="imgCartoon" Margin="192,8,192,8" Stretch="Fill" Source="pack://siteoforigin:,,,/chuck norris.png">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="imgTitle" Margin="-17,-33,453,126" Stretch="Fill" Source="pack://siteoforigin:,,,/title.png">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <ComboBox x:Name="cbxCategory" HorizontalAlignment="Left" Margin="68,339,0,0" VerticalAlignment="Top" Width="194" Height="47
+                      " FontFamily="Impact" FontSize="30">
+                <ComboBox.Effect>
+                    <DropShadowEffect/>
+                </ComboBox.Effect>
+            </ComboBox>
+            <Image x:Name="imgBubble" Margin="498,0,0,122" Stretch="Fill" Source="pack://siteoforigin:,,,/bubble.png"/>
+            <Button x:Name="btnSubmit" Content="Joke Me!" HorizontalAlignment="Left" Margin="566,339,0,0" VerticalAlignment="Top" Height="47" Width="166" FontWeight="Normal" FontFamily="Impact" FontSize="30" Foreground="Black">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+
+        </Grid>
+    </Border>
+</Window>

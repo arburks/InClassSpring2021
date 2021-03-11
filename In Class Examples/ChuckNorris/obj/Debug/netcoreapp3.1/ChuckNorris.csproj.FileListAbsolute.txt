@@ -1,0 +1,23 @@
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.exe
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\bubble.png
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\Category1.png
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\chuck norris.png
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\title.png
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.deps.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.runtimeconfig.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.runtimeconfig.dev.json
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\bin\Debug\netcoreapp3.1\ChuckNorris.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.csprojAssemblyReference.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris_MarkupCompile.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris_MarkupCompile.lref
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.g.resources
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.AssemblyInfoInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.AssemblyInfo.cs
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.csproj.CoreCompileInputs.cache
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.dll
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.pdb
+C:\Users\arburks\source\repos\InClassSpring2021\In Class Examples\ChuckNorris\obj\Debug\netcoreapp3.1\ChuckNorris.genruntimeconfig.cache
